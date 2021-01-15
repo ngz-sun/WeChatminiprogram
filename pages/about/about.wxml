@@ -1,0 +1,111 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{flase}}">
+  <view slot="content">资料</view>
+</cu-custom>
+<scroll-view scroll-x class="bg-white nav">
+  <view class="flex text-center">
+    <view class="cu-item flex-sub {{index==TabCur?'text-blue cur':''}}" wx:for="{{list1}}" wx:key='index' bindtap="tabSelect" data-id="{{index}}">
+      {{item}}
+    </view>
+  </view>
+</scroll-view>
+<view class='brand1' wx:if="{{TabCur == 0}}">
+
+<view class='wps'bindtap="buttonfunction"><image src="/assets/image/wps.jpg"></image><text class="t1">图的创建</text><text class="t2">实验报告版</text></view>
+ <view class="wps1"><text catchtap="handleCollection" wx:if='{{!isCollected}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection" wx:if='{{isCollected}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <view class='wps' bindtap="buttonfunction1"><image src="/assets/image/wps.jpg"></image><text class="t1">mysql和sqlserver宿舍管理系统</text><text class="t2">实验报告版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection1" wx:if='{{!isCollected1}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection1" wx:if='{{isCollected1}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+
+
+<view class='wps' bindtap="buttonfunction2"><image src="/assets/image/wps.jpg"></image><text class="t1">学生成绩管理数据库+python</text><text class="t2">实验报告版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection2" wx:if='{{!isCollected2}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection2" wx:if='{{isCollected2}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <view class='wps' bindtap="buttonfunction3"><image src="/assets/image/wps.jpg"></image><text class="t1">舞伴问题的构建</text><text class="t2">实验报告版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection3" wx:if='{{!isCollected3}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection3" wx:if='{{isCollected3}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <view class='wps' bindtap="buttonfunction4"><image src="/assets/image/wps.jpg"></image><text class="t1">哈夫曼树的构建</text><text class="t2">代码版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection4" wx:if='{{!isCollected4}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection4" wx:if='{{isCollected4}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+<view class='wps' bindtap="buttonfunction5"><image src="/assets/image/wps.jpg"></image><text class="t1">单链表的构建</text><text class="t2">代码版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection5" wx:if='{{!isCollected5}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection5" wx:if='{{isCollected5}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <view class='wps' bindtap="buttonfunction6"><image src="/assets/image/wps.jpg"></image><text class="t1">链栈的构建</text><text class="t2">代码版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection6" wx:if='{{!isCollected6}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection6" wx:if='{{isCollected6}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+<ad unit-id="adunit-f454c36d034c740e"></ad>
+ <view class='wps' bindtap="buttonfunction7"><image src="/assets/image/wps.jpg"></image><text class="t1">顺序表的构建</text><text class="t2">代码版</text>
+</view>
+ <view class="wps1"><text catchtap="handleCollection7" wx:if='{{!isCollected7}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection7" wx:if='{{isCollected7}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <view class='wps' bindtap="buttonfunction8"><image src="/assets/image/wps.jpg"></image><text class="t1">顺序栈的构建</text><text class="t2">代码版</text></view>
+ <view class="wps1"><text catchtap="handleCollection8" wx:if='{{!isCollected8}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection8" wx:if='{{isCollected8}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <view class='wps' bindtap="buttonfunction9"><image src="/assets/image/wps.jpg"></image><text class="t1">字符串的模式匹配</text><text class="t2">代码版</text></view>
+ <view class="wps1"><text catchtap="handleCollection9" wx:if='{{!isCollected9}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection9" wx:if='{{isCollected9}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+
+</view>
+
+
+<view class='brand2' wx:if="{{TabCur == 1}}">
+
+<!--index.wxml-->
+<view class="container">
+
+
+  <!--热映列表展示-->
+  <block wx:for="{{moves}}" wx:key="item">
+    <view class="list">
+
+      <view class="list_img">
+        <image src="{{item.images.medium}}"></image>
+      </view>
+
+      <view class="list_info">
+        <text class="move-item_fontWeight">片名:</text>
+        <text class="move-item_moveName">{{item.title}}\n</text>
+
+        <view>
+          <text class="move-item_fontWeight">主演:</text>
+          <block wx:for="{{item.casts}}" wx:key="index">
+            <text class="move-item_fontSize">{{item.name}} </text>
+          </block>
+        </view>
+
+        <view>
+          <text class="move-item_fontWeight">导演:</text>
+          <block wx:for="{{item.directors}}" wx:key="index">
+            <text class="move-item_fontSize">{{item.name}} </text>
+          </block>
+        </view>
+
+ <view>
+          <text class="move-item_fontWeight">类型:</text>
+          <block wx:for="{{item.genres}}" wx:key="index">
+            <text class="move-item_fontSize">{{item}} </text>
+          </block>
+        </view>
+
+      </view>
+    </view>
+  </block>
+  <ad unit-id="adunit-f454c36d034c740e"></ad>
+
+</view>
+
+ </view>
+
+<view class='brand3' wx:if="{{TabCur == 2}}">
+     <view class='wps' bindtap="buttonfunction10"><image src="/assets/image/wps.jpg"></image><text class="t1">数据结构（c语言版课后答案）</text><text class="t2">习题精炼</text></view>
+ <view class="wps1"><text catchtap="handleCollection10" wx:if='{{!isCollected10}}' class="cuIcon-favor lg text-gray t3"></text><text catchtap="handleCollection10" wx:if='{{isCollected10}}' class="cuIcon-favor lg text-yellow t3"></text></view><view class="jainxi"></view>
+
+ <ad unit-id="adunit-0abc16c0f662361f" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+ 
+ </view>

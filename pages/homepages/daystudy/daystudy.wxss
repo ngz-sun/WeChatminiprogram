@@ -1,0 +1,120 @@
+#container{
+  width: 100vw;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.body{
+  margin-top: 4%;
+  width: 92vw;
+  height: 100%;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 0px 0px 20rpx 30rpx rgb(238, 236, 236);
+}
+.jindu{
+  margin-top: 6%;
+  text-align: left;
+}
+.jindu>text{
+  margin-left: 10%;
+  color:rgb(110, 106, 106);
+}
+.v1,.v2{
+  height: 17vh;
+  margin: 5vw;
+  float: left;
+}
+.v1{
+  width: 23vw;
+  margin-right: 0;
+  border: black 1px solid;
+}
+.v1_box{
+  border: black 1px solid;
+  width: 96%;
+  height: 96%;
+  margin:2.2% 1.8%;
+  position: relative;
+}
+.v1-text1{
+   position: absolute;
+   bottom: 6.4vh;
+   right: 9vw;
+   font-size: 32px; 
+   font-weight: 700;
+}
+.v1-text2{
+   position: absolute;
+   bottom: 7vh;
+   right: 3vw;
+   font-size: 14px; 
+   font-weight: 700;
+}
+
+.v1-text3{
+ position: absolute;
+ bottom: 3vh;
+ right: 0;
+ width: 20vw;
+ color: rgb(110, 106, 106);
+}
+.v2{
+  width: 54vw;
+  margin-right: 0;
+}
+.v2-text{
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+.clear{
+  clear: both;
+}
+.v3{
+  margin: 5vw;
+  margin-top: 0;
+  width: 82vw;
+  border: 1px solid #f3f3f3;
+}
+.btn{
+  margin-top: 3vh;
+  width: 80vw;
+  font-size: 16px;
+  margin-bottom: 3vh;
+}
+.v2 .lesson{
+  width: 100%;
+  height: 60%;
+  line-height: 10vh;
+  font-weight: 600;
+  border-bottom:1px solid #f3f3f3; 
+}
+.v2 .plan{
+  width: 100%;
+  height: 7vh;
+}
+.v3-text{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8rpx;
+    margin-top: 8rpx;
+    text-indent: 1em;
+}
+.v3 .book{
+  width: 100%;
+  height: 30vh;
+}
+.v3 .book image{
+  width: 100%;
+  height: 100%;
+}
+.intro{
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8rpx;
+}
+.intro>text{
+    text-indent: 2em;
+}

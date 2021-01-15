@@ -1,0 +1,35 @@
+<cu-custom bgColor="bg-gradual-red" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">幸运转盘</view></cu-custom>
+<view class="wrapper" >
+  <view class="main" style='transform:scale({{scale}});margin:0 auto;'>
+    <view class='userinfo'>
+      <view class='userinfo-tx'>
+        <image src='{{userInfo.avatarUrl}}'></image>
+        <view class='userinfo-money'><text>{{money}}积分</text></view>
+      </view>
+
+    </view>
+    <view class="canvas-container" style='margin:0 auto;'>
+      <view animation="{{animationData}}" class="canvas-content" style='margin:0 auto;'>
+        <canvas style="width: 300px; height: 300px; margin:0 auto;" class="canvas-element" canvas-id="lotteryCanvas"></canvas>
+        <view class="canvas-line">
+          <view class="canvas-litem" wx:for="{{awardsList}}" wx:key="unique" style="-webkit-transform: rotate({{item.lineTurn}});transform: rotate({{item.lineTurn}})"></view>
+        </view>
+         <view class="canvas-list">
+          <view class="canvas-item" wx:for="{{awardsList}}" wx:key="unique">
+            <view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})">
+              <text class='canvas-item-text-inner {{scale===1.4?"btnfont":"normal"}}'> {{item.award}}</text>
+            </view>
+          </view>
+        </view>  
+      </view>
+       <view class="{{scale===1.4?'btnfont':'normal'}} canvas-btn {{turning?disabled:able}} {{chanceRemain==0?disabled:able}}"></view> 
+    </view>
+    <view class='count'><text>{{count}}</text>钻</view>
+    <view class="main-container">
+      <button class="main-container-btn {{turning?disabled:able}}" bindtap="{{turning?'':'getLottery'}}">抽 奖</button>
+    </view>
+    <view class='tishi'>
+      每次抽奖消耗5钻石，每10分钟会增加10钻石
+    </view>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">好看又实用的h5页面构图方法</text>
+        <text class="bg-green" style="width:10rem"></text>
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <view class='margin-top-sm text-in'>构图基本是贯穿在任何的设计中的，从平台设计，到网站设计，再到现在制作h5页面这些设计工作里都需要考虑到构图的问题，因此在微传单平台上制作h5页面时，灵活的应用构图方法，能够更加快速的制作出优秀的h5页面。</view>
+    <view class='margin-top-sm text-in'>优秀的构图方法，看上去大概都是相似的，毕竟这是得到公认的规则，而不好的构图方法却会存在各种各样的特点，所以这里根据微传单平台的h5页面案例，给大家梳理了既好看又实用的h5页面构图方法，希望大家能够喜欢。
+</view>
+    <view class='margin-top-sm text-in'>一、单图片的留白构图\n通过适当的留白空间，让制作出来的h5页面更具气质</view>
+    <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/16024667-d333497c7cbf5799.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp"></image>
+    <view class='margin-top-sm text-in'>二、多图片的卡片构图\n常见在各种婚礼邀请函、同学纪念册、新品介绍当中</view>
+    <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/16024667-b5f3a9316502f3fd.png?imageMogr2/auto-orient/strip|imageView2/2/w/553/format/webp"></image>
+     <view class='margin-top-sm text-in'>三、全屏式的构图方式\n让h5页面更加的饱满，高清图片给人赏心悦目</view>
+      <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/16024667-79e05c2d68c7f001.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp"></image>
+
+      <view class='margin-top-sm text-in'>四、随意形构图方式\n不规则式的排版布局，使h5页面设计感突现</view>
+      <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/16024667-17ecc2aa6df16ab7.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp"></image>
+
+      <view class='margin-top-sm text-in'>当你在上制作h5页面时，当你碰到不知道怎么在一个空白的h5页面构图的情况，希望看了上面这些构图的方法能够给你带来一些新鲜的灵感，用活了这些构图技巧后，你会发现制作一个优秀的h5页面，原来是一件那么轻而易举的事情。</view>
+  </view>
+  </view>
+</view>

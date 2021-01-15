@@ -1,0 +1,9 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{flase}}">
+  <view slot="content">快捷登录</view>
+</cu-custom>
+<view>
+<button open-type='getUserInfo' disabled='{{disabled}}' bindgetuserinfo='getUserInfoHandler' class="userInfo-btn"><image class="{{ !disabled ?'header_view_show':'header_view_hide'}}" src="/assets/image/weixinlogo.png"></image>{{disabled ? '正在查询用户是否存在' : '微信快捷登录'}}</button>
+</view>
+<view>
+<button class="userInfo-btn1" bindtap="tohome" >取消登录</button>
+</view>

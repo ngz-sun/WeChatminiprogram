@@ -1,0 +1,85 @@
+/* pages/about/about.wxss */
+.userInfo-btn {
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+    line-height: inherit
+}
+
+.userInfo-btn::after {
+    border: 0;
+}
+
+.userInfo-btn .avatar {
+    height: 110rpx;
+    width: 110rpx;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+
+.userInfo-btn .username {
+    font-size: 28rpx;
+    font-weight: bold;
+    color: #000;
+}
+
+.userInfo-btn .username.active {
+    font-size: 36rpx;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 6rpx
+}
+.title{
+  color: red;
+}
+.page {
+  height: 100Vh;
+  width: 100vw;
+}
+
+.page.show {
+  overflow: hidden;
+}
+
+.switch-sex::after {
+  content: "\e716";
+}
+
+.switch-sex::before {
+  content: "\e7a9";
+}
+
+.switch-music::after {
+  content: "\e66a";
+}
+
+.switch-music::before {
+  content: "\e6db";
+}
+.UCenter-bg {
+  background-image: url(https://image.weilanwl.com/color2.0/index.jpg);
+  background-size: cover;
+  height: 550rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.UCenter-bg text {
+  opacity: 0.8;
+}
+
+.usertouxiang{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}

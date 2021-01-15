@@ -1,0 +1,14 @@
+<scroll-view scroll-y class="scrollPage">
+  <cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="content">精选文章</view>
+  </cu-custom>
+  <view class="cu-card">
+    <view class="cu-item bg-img shadow-blur" style="background-image:url({{item.img}})" bindtap="toChild" data-url="{{item.url}}" wx:for="{{list}}" wx:key>
+      <view class="cardTitle">
+        {{item.title}}
+      </view>
+    </view>
+  </view>
+  <ad unit-id="adunit-085409be025d18b2"></ad>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>

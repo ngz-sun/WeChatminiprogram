@@ -1,0 +1,41 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">文章内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">我是如何快速上手微信小程序开发的</text>
+        <text class="bg-green" style="width:10rem"></text>
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <view class='margin-top-sm text-in'>一 如何创建一个微信小程序
+二 如何搭建小程序页面
+三 小程序如何获取数据，处理逻辑
+四 如何发布小程序应用</view>
+    <view class='margin-top-sm text-in'>无论是前端开发，还是后端开发，时间长了，你总会能总结出它的一些规律的，对于前端开发主要就两条，页面展现，逻辑处理。如果是全流程开发的话，那就是，如何创建项目，页面如何实现，数据获取和逻辑处理如何实现，如何打包上线。移动端或者前端，基本开发流程就这个四个步骤。所以在在前端方面去学习新一门开发技术，只要你解决了这四个问题，那一切就OK了，下面我就讲一下，我在学习微信小程序开发，如何用这四步法快速上手开发的
+</view>
+    <view class='margin-top-sm text-in'>一 如何创建一个微信小程序学习一门新技术先看下它的开发文档小程序介绍。1.1 首先要先注册一个账号，具体步骤请看下图的相关章节
+</view>
+    <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/1972799-6daa24dde5f4372f.png?imageMogr2/auto-orient/strip|imageView2/2/w/954/format/webp"></image>
+    <view class='margin-top-sm text-in'>1.2 小程序信息完善和配置，具体步骤请看下图的相关章节</view>
+    <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/1972799-5562fb8d31319243.png?imageMogr2/auto-orient/strip|imageView2/2/w/511/format/webp"></image>
+    到此第一个问题我们就算完成了，接下来解决小程序界面如何搭建。
+       <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/1972799-2c9cbf8f57703192.png?imageMogr2/auto-orient/strip|imageView2/2/w/516/format/webp"></image>
+       <view class='margin-top-sm text-in'>到此第一个问题我们就算完成了，接下来解决小程序界面如何搭建。</view>
+         <view class='margin-top-sm text-in'> 二 如何搭建小程序页面</view>
+         <image class="contnet-img" src="https://upload-images.jianshu.io/upload_images/1972799-89ba614765a648f0.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp"></image>
+         <view class='margin-top-sm text-in'>框架的视图层由 WXML 与 WXSS 编写，由组件来进行展示。
+将逻辑层的数据反应成视图，同时将视图层的事件发送给逻辑层。
+WXML(WeiXin Markup language) 用于描述页面的结构。
+WXS(WeiXin Script) 是小程序的一套脚本语言，结合 WXML，可以构建出页面的结构。
+WXSS(WeiXin Style Sheet) 用于描述页面的样式。小程序的页面是由wxml 和wxss这两个文件来实现的，wxml结构如何写请参考微信小程序组件。wxss是负责样式控制的，基本类似于css,支持flex布局，所以要想上手构建微信小程序的界面，最好要熟悉html ,css.微信提供的界面组件很多，没必要一下子全学会，会用一两个就行，其他的遇到需要的时候现查先做，这样又节约学习时间，又能够加深理解。到此第二个问题我们解决了，下面看第三个问题，数据逻辑如何处理。
+</view>
+
+  </view>
+</view>
+</view>
+

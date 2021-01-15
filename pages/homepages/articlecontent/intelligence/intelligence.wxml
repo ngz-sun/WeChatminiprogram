@@ -1,0 +1,19 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">文章内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">{{list[0].title}}</text>
+        <text class="bg-green" style="width:10rem"></text>
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+   <image class="contnet-img" src="http://img1.imgtn.bdimg.com/it/u=4254814774,3969409705&fm=26&gp=0.jpg"></image>
+    <view class='margin-top-sm'><text>{{list[0].content}}</text></view>
+  </view>
+</view>
+</view>

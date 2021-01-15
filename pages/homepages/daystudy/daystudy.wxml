@@ -1,0 +1,43 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">每日一学</view>
+</cu-custom>
+<view id="container">
+  <view class="body">
+    <view class="v1">
+      <view class="v1_box">
+        <text class="v1-text1">1</text>
+        <text class="v1-text2">篇</text>
+        <text class="v1-text3">每日计划</text>
+      </view>
+    </view>
+    <view class="v2">
+      <view class="lesson">
+        <text class="v2-text">5G区块链</text>
+      </view>
+      <view class="jindu">
+        <text>专辑进度</text>
+      </view>
+      <view class="cu-progress">
+        <view class="bg-gradual-pink" style="width:{{jindu}};">{{jindu}}</view>
+      </view>
+    </view>
+    <view class="clear"></view>
+    <view class="v3">
+      <view class="v3-text">
+        <text>未学习的文章</text>
+      </view>
+      <view class="book">
+        <image src="/assets/image/daystudy.png"></image>
+      </view>
+      <view class="intro">
+        <text decode="{{ true}}">&ensp;&ensp;5G作为新一代移动通信技术，具备高速率、低延时和海量接入的特性。而区块链作为新一代互联网，其去中心化、交易信息隐私保护、历史记录防篡改、可追溯等特性可推动5G应用的高效发展。分析区块链和5G的行业痛点，探索两者结合的可落地性，并对区块链+5G的未来进行了展望。
+      </text>
+      </view>
+    </view>
+    <navigator open-type="navigate" url="/pages/homepages/daystudycontent/daystudycontent">
+       <button class="btn bg-gradual-pink">
+            <text>开始学习</text>
+      </button>
+    </navigator>
+  </view>
+</view>

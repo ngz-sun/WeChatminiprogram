@@ -1,0 +1,30 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">关于我们</view>
+</cu-custom>
+<view class="cu-timeline">
+  <view class="cu-time">V 1.0</view>
+  <view class="cu-item cur cuIcon-noticefill">
+    <view class="content bg-red shadow-blur">
+      <text></text> 开始想写个小程序玩玩，放在自己公众号上！
+    </view>
+  </view>
+  <view class="cu-item text-red cuIcon-attentionforbidfill">
+    <view class="content .bg-orange shadow-blur">
+      快速学了些小程序知识，使用了ColorUi组件，使用了云开发，写的很菜。
+    </view>
+  </view>
+  <view class="cu-item text-grey cuIcon-evaluate_fill">
+    <view class="content bg-yellow shadow-blur">
+      想做一些内容，帮助一些大一新入学的学弟，学妹们。让他们更好了解大学生活，大学学习，在大学找到自己的兴趣，完善发展自己。
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-green content">
+       有时间就会写一写，因为课多的原因。写的断断续续，遇到不会的就去网上搜一搜。尤其是涉及到服务器方面的还没有接触过，感觉有点吃力。
+    </view>
+    <view class="bg-cyan content">
+      因为使用了别人的ui样式,所以一些基本的ui样式就不用再去想了，再说没学过ui想出好看的样式是真的难。
+    </view>
+  </view>
+</view>

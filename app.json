@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/auth/auth",
+    "pages/login/login",
+    "pages/authpages/aboutme/aboutme",
+    "pages/homepages/daystudy/daystudy",
+    "pages/homepages/daystudycontent/daystudycontent",
+    "pages/homepages/article/article",
+    "pages/homepages/articlecontent/universityplan/universityplan",
+    "pages/homepages/articlecontent/jianzhi/jianzhi",
+    "pages/homepages/articlecontent/intelligence/intelligence",
+    "pages/homepages/articlecontent/web/web",
+    "pages/homepages/programming/programming",
+    "pages/homepages/programmingcontent/h5/h5",
+    "pages/homepages/programmingcontent/mysql/mysql",
+    "pages/homepages/articlecontent/xiaochengxu/xiaochengxu",
+    "pages/homepages/articlecontent/java/java",
+    "pages/homepages/articlecontent/3python/3page",
+    "pages/authpages/codezan/codezan",
+    "pages/authpages/collect/collect",
+    "pages/authpages/choujiang/choujiang",
+    "pages/index/index",
+    "pages/components/display-part-text/display-part-text",
+    "pages/new/new",
+    "pages/gzhpage/gzhpage"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#39b54a",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/widgets-f.png",
+        "selectedIconPath": "assets/tabbar/widgets-f-active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "资料",
+        "iconPath": "assets/tabbar/tipsnew.png",
+        "selectedIconPath": "assets/tabbar/tipsnew-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "动态",
+        "iconPath": "assets/tabbar/putunder.png",
+        "selectedIconPath": "assets/tabbar/putunder-active.png"
+      },
+      {
+        "pagePath": "pages/auth/auth",
+        "text": "我的",
+        "iconPath": "assets/tabbar/userface-f.png",
+        "selectedIconPath": "assets/tabbar/userface-f-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom"
+  }
+}

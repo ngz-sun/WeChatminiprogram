@@ -1,0 +1,225 @@
+{
+	"description": "项目配置文件",
+	"cloudfunctionRoot": "login/",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true,
+		"uglifyFileName": true,
+		"remoteDebugLogEnable": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.3",
+	"appid": "wx35eacb1865a35598",
+	"projectname": "miniprogram-1",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/homepages/daystudy/daystudy",
+					"pathName": "pages/homepages/daystudy/daystudy",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/daystudycontent/daystudycontent",
+					"pathName": "pages/homepages/daystudycontent/daystudycontent",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/articlecontent/universityplan/universityplan",
+					"pathName": "pages/homepages/articlecontent/universityplan/universityplan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/article/article",
+					"pathName": "pages/homepages/article/article",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/daystudy/daystudy",
+					"pathName": "pages/homepages/daystudy/daystudy",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/programmingcontent/mysql/mysql",
+					"pathName": "pages/homepages/programmingcontent/mysql/mysql",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/programmingcontent/mysql/mysql",
+					"pathName": "pages/homepages/programmingcontent/mysql/mysql",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homepages/articlecontent/intelligence/intelligence",
+					"pathName": "pages/homepages/articlecontent/intelligence/intelligence",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/note/note",
+					"pathName": "pages/note/note",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/create/index",
+					"pathName": "pages/create/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/create/index",
+					"pathName": "pages/create/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/create/index",
+					"pathName": "pages/create/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/edit/index",
+					"pathName": "pages/edit/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/edit/index",
+					"pathName": "pages/edit/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/edit/index",
+					"pathName": "pages/edit/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/authpages/codezan/codezan",
+					"pathName": "pages/authpages/codezan/codezan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/authpages/choujiang/choujiang",
+					"pathName": "pages/authpages/choujiang/choujiang",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about/about",
+					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/new/new",
+					"pathName": "pages/new/new",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/gzhpage/gzhpage",
+					"pathName": "pages/gzhpage/gzhpage",
+					"scene": null
+				}
+			]
+		}
+	}
+}

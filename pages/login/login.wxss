@@ -1,0 +1,27 @@
+.userInfo-btn {
+    color: #fff;
+    font-size:32rpx;
+    background: #00b26a;
+    width: calc(100% - 60rpx);
+    margin: 600rpx auto 0rpx;
+
+    position: relative;
+}
+.header_view_hide{
+  display: none;
+}
+.header_view_show{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 180rpx;
+}
+.userInfo-btn1 {
+    color: #fff;
+    font-size:32rpx;
+    background: #00b26a;
+    width: calc(100% - 60rpx);
+    margin: 100rpx auto;
+}

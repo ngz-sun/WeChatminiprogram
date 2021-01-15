@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "displayPartText": "../components/display-part-text/display-part-text"
+  }
+}

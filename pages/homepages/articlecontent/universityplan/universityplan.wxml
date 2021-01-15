@@ -1,0 +1,24 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">文章内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">大学生该如何做好规划呢？虚度光阴，还是脚踏实地？</text>
+        <text class="bg-green" style="width:10rem"></text>
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <view class='margin-top-sm text-in'>合理安排自己的作息时间，要让自己的大学生活更有意义，最好不要浪费宝贵的四年时间，比如早上七点起床，晚上十一点之前休息，每周末还有时间去外面看看，合理安排自己的时间有利于提高效率，还可以帮助自己养成良好的生活习惯。</view>
+    <view class='margin-top-sm text-in'>培养兴趣爱好，不能一门心思都扑在学习上，也要利用业余时间来发展自己的兴趣爱好，比如参加校园围棋社、足球队、书法协会等等，只要是可以让自己享受其中的，就尝试多参加几个，等到自己确定哪一些才是最喜欢的，就保留那几个兴趣爱好，以后这些也会对自己走入社会有帮助。</view>
+    <view class='margin-top-sm text-in'>将所有的计划和想法都落实到纸面上，白纸黑字会让自己有使命感，知道这不是闹着玩的，需要坚持下去。最好将这些贴在每天都可以看到的地方，比如床头上，这样就可以时刻提醒自己，大学生活应该怎么样度过最好最有意义。</view>
+    <image class="contnet-img" src="/assets/image/lian.jpg"></image>
+    <view class='margin-top-sm text-in'>如果自己很迷茫，不知道该怎么规划自己的大学生活，不妨去请教自己的师哥师姐，或者请教自己的老师。其实万事开头难，上学也是如此，面对新的环境新的同学，刚刚结束高中生活的大学生的的确确会有一些不适应，不知道该怎么去做。这个时候可以去请教别人，师长们会帮助自己解决这个问题的。</view>
+    <image class="contnet-img" src="/assets/image/lian1.jpg"></image>
+     <view class='margin-top-sm text-in'>将学历和各种证书列入自己的规划之中，其实大学的时间还是相对充足的，也学会利用大学期间将自己的各种证书、资格材料等拿下，比如驾驶证、英语四六级、普通话水平考试等等，这些证书对于以后自己步入社会，进入职场都是实力的证明，对自己今后的发展可以起到很重要的作用。</view>
+  </view>
+</view>
+</view>

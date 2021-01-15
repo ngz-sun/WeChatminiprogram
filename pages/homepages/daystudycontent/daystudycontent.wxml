@@ -1,0 +1,86 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">文章内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">Java学习方法和经验分享，小白看过来</text>
+        <text class="bg-green" style="width:10rem"></text>
+        <!-- last-child选择器-->
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <view class='margin-top-sm text-in'> 为了就业，不少同学参加各种各样的培训。
+
+决心做软件的，大多数人选的是java，或是.net，也有一些选择了手机、嵌入式、游戏、3G、测试等。
+
+那么究竟应该选择什么方向呢？
+
+我的意见是，不要太过相信各种培训机构或是抢手文章的说法（包括我），当你要走向社会的时候，就不要再把自己当成学生， 不要把自己的将来交给别人，学会运用自己的眼睛去观察，去了解这个世界吧。 每个培训机构都会宣传自己的好处，并不能说明大的趋势。一些新闻文章很有可能是枪手写的，不必太过相信。国外背景的教师和课程，未必适合你。
+
+那么怎么才能确定自己将来的方向？如何才能从纷繁复杂、或真或假的数据世界中挖出一条路？</view>
+    <view class='margin-top-sm text-in'>不过，如果某一个方向的职位数目过少，你可就要小心了，选择这样的方向风险会非常大，如J2ME。我个人觉得java/J2EE、.net、嵌入式开发是不错的三个方向。
+
+如果非要在java和.net中选择的话，我个人是推荐java的，原因：
+
+1：Java能够开发linux、unix服务器上的程序
+
+2：JavaEE和.NET在企业应用方面的关注点是差不多的，但是学习了java如果将来想转到.net上会比较简单，几天的学习然后上手开发应该是问题不大的，但是反之就不行了。
+
+当然如果有了些经验之后，你就会发现语言或者平台不再是技术上的阻碍，一些原理性的东西学到手，然后再加上项目经验，使用什么平台，反而不是最重要的。不过如果非要用一种平台进入企业开发的领域，至少在目前，2007年9月，我推荐java。
+
+完全可以不同意我的观点，但是无庸置疑，如果是为了就业，多到招聘网站阅读阅读职位的信息，对你将来的方向和学习是大有益处的。选择是最痛苦的，看看《天生购物狂》中的刘青云就知道了，不过既然无法逃避，就作出自己的选择吧。每个人都会受到别人的影响，在作出决定之前，要想尽各种办法让自己理性一些吧。这样，你的选择会离正确的方向更近一些。</view>
+    <view class='margin-top-sm text-in'>有不少的同学发信给我，和我探讨java的自学过程应该是什么样的，毕竟有很多人因为各种各样的原因不能参加培训。我试着给出自己的见解，抛砖引玉吧。
+
+这个路线图是给那些为了就业的人准备的，如果只是兴趣，不一定照这个走。
+
+这里只是讲了路线图，关于路线中的各个阶段，学到什么程度，如何学习等，可以参考后面的JAVA自学之路七:《路线图明细》。
+
+首先要学JavaSE，这是无庸置疑的。
+
+与此同时，是的，与此同时，和JavaSE的学习同步，建议大家研究一下数据结构与算法。
+
+在这儿之后，你可以选择向J2ME、或者Java GUI、Socket编程等方向努力，但是通过第一篇的办法，你可以很容易就将这方向过滤掉（永远不要忘了我们是为了就业），好吧，暂时和它们诀别，还是向着J2EE的方向前进吧。</view>
+    <image class="contnet-img" src="/assets/image/lian.jpg"></image>
+    <view class='margin-top-sm text-in'>在JavaSE完成之后，可以试着完成一些小项目，同时关注一下设计模式的内容，不必强求自己能够完全掌握各种细节，往前走吧。
+
+掌握一种编程工具，比如说Eclipse。
+
+数据库，可以选择使用Oracle或者MySQL开始。
+
+JDBC，用Java连接数据库。
+
+可以选择在这个地方切入Hibernate，也可以选择在Struts之后。
+
+HTML CSS JavaScript，这些东西是做web项目必需的内容。
+
+Servlet JSP，服务器端必需。
+
+XML AJAX，新的流行趋势不能不了解。
+
+作一些小项目吧。比如BBS、留言系统、学籍管理、商城等等，随便着一些业务逻辑比较简单的来做一做。
+
+Struts，MVC的典型应用
+
+Hibernate，OR Mapping的典范之作。
+
+Spring IOC + AOP， 面向对象 ＋ 面向切面，完善的旅程。
+
+把以前自己的小项目加入Struts、Spring、Hibernate的元素吧。
+
+去研究各种商业项目的业务逻辑吧，才能在你的简历中加入浓重的一笔。
+
+EJB3.0，java在走了很多弯路后的回归之作，值得研究。
+
+SOA，业界铁定的未来趋势，要紧紧跟随。</view>
+    <image class="contnet-img" src="/assets/image/lian1.jpg"></image>
+  </view>
+</view>
+  <button class="btn bg-gradual-pink" bindtap="buttonListener" >
+    完成学习
+  </button>
+
+</view>

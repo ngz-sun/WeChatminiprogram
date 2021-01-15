@@ -1,0 +1,87 @@
+<!--pages/auth/auth.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{flase}}">
+  <view slot="content">首页</view>
+</cu-custom>
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="{{indicatorDots}}" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key='index' class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class="Central">
+  <navigator open-type="navigate" url="/pages/homepages/daystudy/daystudy">
+    <view class="cen1">
+      <image src="/assets/image/daystudy1.png" />
+      <text class="text1">每日一学</text>
+      <text class="text2">高效学习，快速上分</text>
+    </view>
+  </navigator>
+  <navigator open-type="navigate" url="/pages/homepages/programming/programming">
+  <view class="cen2">
+    <image src="/assets/image/biancheng.png" />
+    <text class="text3">编程特辑</text>
+  </view>
+ </navigator>
+  <navigator open-type="navigate" url="/pages/homepages/article/article">
+    <view class="cen3">
+      <image src="/assets/image/aritle.png" />
+      <text class="text4">精选文章</text>
+    </view>
+  </navigator>
+</view>
+
+
+<!-- 文字轮播 -->
+<view class="n-wenziswiper">
+  <image class="n-hot" src="/assets/image/hot.png"> </image>
+  <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
+    <block wx:for="{{msgList}}" wx:key="index">
+      <navigator url="{{item.url}}" open-type="navigate">
+      <swiper-item>
+        <view class="swiper_item">{{item.title}}</view>
+      </swiper-item>
+      </navigator>
+    </block>
+  </swiper>
+</view>
+
+<view class="gap"></view>
+
+<!-- content -->
+<view class="n-content">
+  <view class="content-header">
+    <text>— 玩转小程序 —</text>
+  </view>
+  <view class="content-bottom">
+    <scroll-view scroll-x>
+      <view class="bottom-1" bindtap="buttonListener">
+        <image src="/assets/image/mini1.jpg" />
+        <text class="bottom-text">如何快速上手小程序</text>
+      </view>
+      <view class="bottom-2" bindtap="buttonListener0">
+        <image src="http://img0.imgtn.bdimg.com/it/u=2073600706,3821368626&fm=26&gp=0.jpg" />
+        <text class="bottom-text">微信小程序发展现状分析及发展趋势预测</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<view class="n-content">
+  <view class="content-header">
+    <text>— Python 人工智能 —</text>
+  </view>
+  <view class="content-bottom">
+    <scroll-view scroll-x>
+      <view class="bottom-1" bindtap="buttonListener1">
+        <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3854714872,611473225&fm=26&gp=0.jpg" />
+        <text class="bottom-text">Python才是人工智能AI的首选编程语言</text>
+      </view>
+      <view class="bottom-2" bindtap="buttonListener2">
+        <image src="/assets/image/lian1.jpg" />
+        <text class="bottom-text">AI的未来如何发展</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

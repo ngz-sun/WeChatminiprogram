@@ -1,0 +1,34 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">文章内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">大学生兼职赚钱可以做什么？</text>
+        <text class="bg-green" style="width:10rem"></text>
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <view class='margin-top-sm'><text>在当下创业风潮越来越强烈的大环境下，“创业”似乎成为了绝大多数人都心心念念的事儿。不论是已经步入社会的白领还是正在享受大学生活的大学生，几乎都有着一颗想创业的心。
+
+这种创业的风气是如此浓烈，以至于大学都被划分成了两派，一派是学院派，也就是学霸；另一派就是实干派，混迹于各种兼职、社团。</text></view>
+<image class="contnet-img" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2144625845,139108756&fm=173&app=49&f=JPEG?w=600&h=400&s=05B05C32011655CA1ECDF5CE0000A0B1"></image>
+    <view class='margin-top-sm text-in'><text>一、家教
+
+提到兼职，“家教”二字可以说是第一时间就出现在大多人的脑海里。事实上也是这样，作为大学生，唯一能具有优势的就是自己接受过高等教育的脑袋。家教也几乎是每个做过兼职的人必经的一次过程，甚至有不少人通过家教挖掘到了自己创业的第一桶金。而且以国人对教育的重视程度而言，家教市场可以说是一直处于供不应求的状态，而在高校，家教的渠道也是相当之多，只要留心就不难发现。</text></view>
+    <view class='margin-top-sm'><text>二、专业技能兼职
+
+既然是大学生，那么必然对自己专业技能的掌握还是有一定水平的。根据自己的专业技能找兼职，一来是可以在实践中不断磨练自己的专业素养，二来是更有成就感，当然最重要的是，收入也比较可观。专业是播音主持可以接兼职主持人的工作；有音乐技能的可以接兼职的驻唱歌手或者音乐手；文笔好的同学可以写点东西、投投稿；设计专业的可以接点设计稿做做。只要你的专业技能够硬，收入妥妥的。</text></view>
+    <view class='margin-top-sm'><text>三、传统类兼职
+
+这一类兼职包括发单员、服务员、收银员、售货员等等。因为需求量大，门槛又低，成为了很多大学生们普遍选择的目标。也是空闲时间较多之时聊胜于无的兼职项目。但是做这类兼职一定要小新一点——防止被骗。
+
+现在很多兼职，比如代理商、打字员、网拍模特、刷单......被骗的案例不胜枚举，手法也是花样百出。时不时的就爆出来一两个“大学生兼职被骗”的新闻。
+
+当然了，对于大学生而言，在学习和兼职赚钱中，不要光顾着兼职而忘了上大学的真正目的，舍本逐末之举不可为。</text></view>
+  </view>
+</view>
+</view>

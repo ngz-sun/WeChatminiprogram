@@ -1,0 +1,30 @@
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}">
+  <view slot="content">文章内容</view>
+</cu-custom>
+<view class="body">
+  <view class="title margin-top-sm">
+    <view class="cu-bar justify-center">
+      <view class="action sub-title">
+        <text class="text-xl text-bold text-green">Java很火，Go潜力股，那么未来五年最具前景的编程语言是什么 
+</text>
+        <text class="bg-green" style="width:10rem"></text>
+      </view>
+    </view>
+  </view>
+ <view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <view class='margin-top-sm'>首先我的观点是，编程语言只是工具，每种编程语言都有自己的优势与适用的场景，编程语言是帮你解决实际问题的，而不是用来辩论哪种语言是最好的。</view>
+    <view class='margin-top-sm'>很多企业都是用不同的语言来解决不同的业务问题，比如有创业公司想快速开发，可能会选择Ruby、Rails；有的要解决实际的性能问题，注重高并发、低延迟那也许会选择Go；有的企业追求稳定成熟的解决方案，可能会选择Java；有的专注在iOS、Android平台的开发，那就会选择Objective-C和Java等；有些企业甚至会混合不同的编程语言，来解决不同的业务场景。</view>
+    <image class="contnet-img" src="http://pic2.zhimg.com/v2-81bfe9f58131388013ec38985e6ee659_1200x500.jpg"></image>
+    <view class='margin-top-sm'>但作为一个没有基础的新手，现在想要学习一门编程语言的话，其实主要关注三点：<text>未来前景
+是否易学
+岗位需求量</text></view>
+    <view class='margin-top-sm'>从0自学，未来前景很重要，为什么说未来前景很重要？雷军说过：站在风口，猪都能飞。足以说明风口非常重要，互联网PC时代，PHP、Java、Web开发网站很火，移动互联网时代Android、iOS是主流平台，自然Java和Objective-C比较火。区块链时代，自然选择Go语言。选择一个对的方向，赶上了风口，可以让你快速的前进。</view>
+     <view class='margin-top-sm'>未来虽然无法准确的预测，但是我们可以看到一些大方向：区块链从高冷晦涩的专业术语变身为全民热议的“爆红”风口，被称为是继互联网的另一个颠覆性科技发展技术。而区块链领域的应用语言Go毫无疑问是主流。</view>
+      <view class='margin-top-sm'>Go语言这么火热，是因为现在大家都对趋势很敏感了，越来越多的人都在焦虑自己会淘汰，所以很多其他编程语言的从业者都在关注、学习、使用Go语言，但是真正敢于放弃本职工作，全职转行Go语言开发的人跟整个编程行业的人相比还是少数的，更何况，在一个新的时代即将到来，相对应的需求本就大，所以，区块链技术有所成熟与突破，Go语言的需求还会更大。
+再说到易学性，其实Go语言相比较大部分语言来说，都算是很容易上手的，语法很清楚，没有那么多复杂的概念，适合新手学习。</view>
+<view class='margin-top-sm'> 而Java这种老牌编程语言，虽然一直被诟病语法臃肿，但是其实随着Java版本的更新，已经逐渐支持了很多新语言的特性，并且因为Java很成熟，不止语言成熟，很多成熟的解决方案、中间件都是基于Java的，Java可用的库太多了，以至于现在大部分公司都离不开Java。而且Java还可以用来开发Android移动应用，所以Java在未来很长一段时间内都会是不可或缺性的语言，相关的工作岗位也自然一直有需求，而且Java语言的易学性也很高，适合新手。</view>
+  </view>
+</view>
+</view>
+

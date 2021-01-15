@@ -1,0 +1,9 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">赞赏支持</view></cu-custom>
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'></view>
+  <view class='text-content'>
+    <view>Hi！欢迎你的支持 !</view>
+    <view class='margin-top-sm'>自己做的一个小程序，如果能帮到你欢迎扫描赞赏码支持一下！自己想到一些功能就会加上一些功能，做的不是很好，还望海涵！！</view>
+    <image class="codeimg" src="/assets/image/codezan.png"></image>
+  </view>
+</view>

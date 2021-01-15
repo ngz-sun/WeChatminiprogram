@@ -1,0 +1,53 @@
+<view class="UCenter-bg">
+    <view>
+    <button class="userInfo-btn">
+            <image class='avatar' src='{{userInfo.avatarUrl || ""}}'></image>
+            <text class='username active'>{{userInfo.nickName || '未登录'}}</text>
+        </button>
+    </view>
+</view>
+<scroll-view  scroll-y class="scrollPage">
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow">
+    <navigator class="content" url="/pages/authpages/choujiang/choujiang" hover-class="none">
+      <view class="content">
+        <text class="cuIcon-presentfill text-pink"></text>
+        <text class="text-grey">幸运转盘</text>
+      </view>
+    </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/authpages/collect/collect" hover-class="none">
+        <text class="cuIcon-favorfill text-green"></text>
+        <text class="text-grey">我的收藏</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+    <navigator class="content" url="/pages/authpages/codezan/codezan" hover-class="none">
+      <view class="content">
+        <text class="cuIcon-appreciatefill text-orange"></text>
+        <text class="text-grey">赞赏支持</text>
+      </view>
+    </navigator>
+    </view>
+    <view class="cu-item arrow">
+       <button class="cu-btn content" open-type="contact">
+        <text class="cuIcon-btn text-olive"></text>
+        <text class="text-grey">我的客服</text>
+      </button>
+    </view>
+    <view class="cu-item arrow">
+      <button class="cu-btn content" open-type="feedback">
+        <text class="cuIcon-writefill text-cyan"></text>
+        <text class="text-grey">意见反馈</text>
+      </button>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/authpages/aboutme/aboutme" hover-class="none">
+        <text class="cuIcon-likefill text-red"></text>
+        <text class="text-grey">关于我们</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
